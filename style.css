@@ -42,7 +42,6 @@ Seth Tomlinson
 February 2019
 */
 }
-
 .aboutme-heading{
     font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
     color: #922610;
@@ -53,7 +52,13 @@ February 2019
     font-variant: small-caps;
     font-weight: bold;
 }
-
 .aboutme-text{
     font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+}
+
+
+@media screen and (max-width: 574px){
+    #custom-topbar{
+        display: none;
+    }
 }

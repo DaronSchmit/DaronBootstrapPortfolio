@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="statblockstyle.css">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <title>HW2 About Me</title>
 </head>
@@ -27,16 +27,13 @@ Sub rows and sub columns
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="https://www.linkedin.com/in/daron-schmit/" target="blank">Daron Schmit</a>
+    <a class="navbar-brand" href="index.html" target="blank">Daron Schmit</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
@@ -50,6 +47,9 @@ Sub rows and sub columns
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Distinct Portfolio Item</a>
           </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.linkedin.com/in/daron-schmit/">LinkedIn</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="https://github.com/DaronSchmit" target="blank">GitHub</a>
@@ -69,52 +69,51 @@ Sub rows and sub columns
     </div>
   </nav>
 
-    <section class="container-fluid" >
+    <section class="container-fluid" id="custom-topbar">
       <br>
-        <div class="row">
-          <article class = "col-sm-2" ><img src="Assets\Images\bannerPics\beer.jpg" class="img-fluid" alt="Lording Over Beer"></article>
-          <article class = "col-sm-2" ><img src="Assets\Images\bannerPics\dramaticlookaway.jpg" class="img-fluid" alt="Hero Pose"></article>
-          <article class = "col-sm-2" ><img src="Assets\Images\bannerPics\legome.jpg" class="img-fluid" alt="Me as a Lego"></article>
-          <article class = "col-sm-2" ><img src="Assets\Images\bannerPics\otherdramaticlookaway.jpg" class="img-fluid" alt="Hero Pose in San Fransisco"></article>
-          <article class = "col-sm-2" ><img src="Assets\Images\bannerPics\shovingcourtsface.jpg" class="img-fluid" alt="I Love Courtney"></article>
-          <article class = "col-sm-2" ><img src="Assets\Images\bannerPics\titanic.jpg" class="img-fluid" alt="Titanic Pose"></article>
+        <div class="row" style="margin-left: 10px; margin-right: 10px;">
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\beer.jpg" class="img-fluid" alt="Lording Over Beer"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\DaronAndDog.jpg" class="img-fluid" alt="Me and my Doggie"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\dramaticlookaway.jpg" class="img-fluid" alt="Hero Pose"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\holdingdoggie.jpg" class="img-fluid" alt="Me and My Doggie again"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\legome.jpg" class="img-fluid" alt="Me as a Lego"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\jakeanddaron.jpg" class="img-fluid" alt="Me and my pal Jake"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\otherdramaticlookaway.jpg" class="img-fluid" alt="Hero Pose in San Fransisco"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\jakeswedding.png" class="img-fluid" alt="Me at Jakes wedding"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\shovingcourtsface.jpg" class="img-fluid" alt="I Love Courtney"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\PaintMeLike_cropped.jpg" class="img-fluid" alt="Paint me like one of your french girls"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\titanic.jpg" class="img-fluid" alt="Titanic Pose"></article>
+          <article class = "col-sm-1"><img src="Assets\Images\bannerPics\thereckoninginthewoods.jpg" class="img-fluid" alt="Being dramatic in the woods"></article>
         </div>
       </section>
 
-    <section class="container">
-      <div class="row"> <!-- Empty Row -->
+    <section class="container"><!-- Empty Row -->
+      <div class="row"> 
         <p> </p> 
       </div>
     </section>
 
     <section class="container">
         <div class="row">
-          <article class="col-sm-3">
-            <img src="Assets\Images\DaronAndCourt.jpg" alt="Daron And Court" class="img-thumbnail" id="personalThumbnail">
-            <h1 class="aboutme-heading">Daron Schmit</h1>
+          <article class="col-sm-4 text-left">
+            <img src="Assets/Images/DaronAndCourt.jpg" alt="Daron And Court" class="img-thumbnail" id="personalThumbnail">
+            <h2 class="aboutme-heading">Daron Schmit</h2>
+            <p>
+              Daron is a 26 year-old Google Tech <strong>(NG normal guy)</strong> who lives in Minneapolis. He went to school for a few years at the University of Minnesota where he studied Chemistry, Physics, and Computer Science. He stopped at the tail end of 2016 when he ran out of gas after some real tough personal stuff.
+            </p>
+            <p>
+              But he's back now! Taking online classes and shooting for the stars! He's dug his heels in at the job he had, got promoted, stuck around for a few years, then left for his current job! He likes what he's doing right now, but is looking to polish off his education and get a shiny new paper for the trouble! 
+            </p>
+            <p>
+              For fun, Daron likes to run Dungeons and Dragons 5e or play whatever Tabletop his friends are Game Mastering. He and his buddy Greg publish a worldbuilding podcast! How neat is that?
+            </p>
 
             <p>
-              Pellentesque tempor neque magna. Donec a pharetra ligula, fermentum rhoncus metus. Praesent dapibus venenatis eros, et accumsan dui dignissim eu. Vestibulum ligula tortor, condimentum ut metus sit amet, tincidunt fermentum velit. Ut non dui non nisl placerat dignissim. Sed mauris sem, eleifend in sem id, viverra tempor est. Donec mattis nibh sit amet suscipit dapibus. Quisque vulputate consequat dui, sed posuere est interdum sit amet. Vestibulum at justo vel nibh rutrum euismod nec a nunc. Duis dictum turpis eget mauris gravida fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam vel interdum felis. Quisque ac luctus quam. Donec cursus libero urna, vitae varius eros feugiat nec. Integer sed cursus lorem.
-            </p>
-            <p>
-              Quisque eget eros consectetur, iaculis orci vitae, vestibulum augue. Maecenas tincidunt sagittis justo at condimentum. Duis sed faucibus elit, sed scelerisque lacus. Suspendisse a placerat elit. Maecenas fermentum sapien leo, ac suscipit dui eleifend ultrices. Morbi lacinia tellus eget libero fringilla placerat. Nulla non tristique quam. Vivamus et nibh lectus. Curabitur auctor urna tortor, sit amet fermentum sapien aliquet non. Nulla turpis leo, ullamcorper in porttitor id, lobortis et nibh. Donec dui lorem, molestie non commodo at, pulvinar at ipsum. Ut dictum leo quis dolor scelerisque mollis. Praesent viverra placerat tortor, a ullamcorper arcu facilisis non. Phasellus quis mauris gravida, malesuada risus a, consectetur urna. Curabitur tristique venenatis mollis. Duis erat nunc, eleifend sed blandit sed, facilisis ac turpis.
-            </p>
-
-          </article>
-
-          <article class="col-sm-3">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet vel sapien maximus laoreet. Mauris mollis eget orci id lobortis. Praesent cursus, ligula nec faucibus fermentum, diam arcu elementum velit, ac fermentum purus purus ut urna. Ut nec turpis vel nunc tincidunt aliquet. Nullam vel sem ut dolor tincidunt vestibulum ac vitae erat. Pellentesque lacus est, facilisis laoreet dapibus id, tristique vitae elit. Suspendisse non elit ipsum. Pellentesque purus mi, tristique a felis a, volutpat tempus nisl. In maximus tempus orci, rutrum molestie purus. Aenean commodo, magna sit amet semper finibus, ante quam dictum purus, in feugiat dolor turpis vitae purus. Duis pharetra rutrum sem, id lacinia risus malesuada sit amet. Aliquam sit amet pretium quam, vel dignissim sem. Morbi et tortor sit amet neque dictum sagittis. Integer sollicitudin nisi non diam congue volutpat. Praesent sollicitudin nisl quis sem tincidunt malesuada.
-            </p>
-            <p>
-              Phasellus egestas volutpat luctus. Sed finibus nibh nec diam vehicula eleifend. Morbi feugiat posuere fermentum. Donec hendrerit massa eu ligula aliquet ullamcorper. Curabitur maximus commodo sem. Donec condimentum sollicitudin fringilla. Nam dui turpis, pulvinar non malesuada vel, rhoncus eget sem. Suspendisse vel leo euismod, porta libero id, pretium est.
-            </p>
-            <p>
-              Duis quam elit, hendrerit quis molestie sit amet, pulvinar sit amet risus. Nunc porta lorem eget velit consectetur, sed semper nisl vestibulum. Fusce urna eros, rhoncus non sapien in, elementum lacinia velit. Fusce congue justo imperdiet, dignissim risus et, vulputate magna. Proin ultricies tempus ligula, et sodales justo efficitur eu. Sed ut tristique nulla, sed porta dui. Donec convallis mi in tincidunt blandit. Phasellus feugiat sapien sed elit porttitor, quis imperdiet diam auctor. Proin at scelerisque odio. Donec commodo eros turpis, a cursus justo facilisis id.
+              Otherwise Daron just likes to laze about the house and watch movies, hang out with his girlfriend, play fetch with the dog, and go on vacations when the world isn't ending.
             </p>
           </article>
 
-          <aside class="col-sm-6">
+          <aside class="col-sm-8">
             <div class="stat-block">
               <hr class="orange-border" />
               <div class="section-left">
