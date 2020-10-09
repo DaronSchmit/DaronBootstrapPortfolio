@@ -43,6 +43,13 @@ February 2019
 */
 }
 
+
+.bannerpic{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
 .footer-margin {
     position: fixed;
     bottom: 0;
@@ -52,10 +59,14 @@ February 2019
 .aboutme-heading{
     font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
     color: #922610;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 1.2em;
     margin: 10px 0 0;
     letter-spacing: 1px;
     font-variant: small-caps;
     font-weight: bold;
+}
+
+.aboutme-text{
+    font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
 }
