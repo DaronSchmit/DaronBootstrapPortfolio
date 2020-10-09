@@ -27,6 +27,8 @@ DnD Statblock Copyright
 Copyright (c) 2020 by Chad Carteret (https://codepen.io/retractedhack/pen/gPLpWe)
 The full copyright can be found commented out under its usage in the source code.
 
+Parchment Background is from Seth Tomlinson via DriveThruRPG. Full license can be found in style.css
+
 
 ## License
 
