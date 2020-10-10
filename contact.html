@@ -52,7 +52,7 @@
         </header>
     
 
-        <div class="row">
+        <row class="row">
             <section class="col-sm-4">
                 <h2>Social Media</h2>
                 <p><strong>Note: I do not use Social Media very often</strong></p>
@@ -73,19 +73,29 @@
             <section class="col-sm-8">
                 <h2>Email</h2>
                 <form>
-                    <div class="form-group">
+                    <inner class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                      <input type="subject" class="form-control" id="exampleInputSubject1" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                      <input type="body" class="form-control" id="exampleInputBody" placeholder="Password">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                  </form>
+                      <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                    </inner>
+                </form>
+                <form>
+                    <inner class="form-group">
+                      <label for="exampleInputSubject">Subject</label>
+                      <input type="subject" class="form-control" id="exampleInputSubject" aria-describedby="emailHelp" placeholder="Subject">
+                    </inner>
+                </form>
+                <form>
+                    <inner class="form-group">
+                      <label for="exampleInputMessage">Message</label>
+                      <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7" placeholder="Message"></textarea>
+                    </inner>
+                </form>
+                <br>
+                <button type="button" class="btn btn-primary">Send</button>
+
             </section>
-        </div>
+        </row>
 
     </main>
 
