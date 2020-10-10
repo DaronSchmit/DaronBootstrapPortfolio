@@ -56,9 +56,26 @@ February 2019
     font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
 }
 
+#facebookProfilePic{
+    z-index: 20;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    max-height: 40%;
+    max-width: 64%;
+    transition: .3s;
+}
+#facebookProfilePic:hover{
+    opacity: 0.9;
+    transition: 0.3s;
+}
 
-@media screen and (max-width: 574px){
-    #custom-topbar{
-        display: none;
-    }
+#facebookBannerPic{
+    z-index: 10;
+}
+
+#facebookName{
+    position: absolute;
+    top: -50%;
+    right: -40%;
 }
