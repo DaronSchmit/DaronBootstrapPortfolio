@@ -21,8 +21,6 @@ This webpage has a functional navbar with changing font color based on what page
 credit to the University of Minnesota coding bootcamp for the starting files. The source is in a private gitlab, so I cannot share it. 
 special thanks to Charlie, the instructor, as well as Jake, Paul, and the other TAs for answering so many questions.
 
-The DnD Statblock on my Contact page was copied from Chad Carteret and edited for my purposes. It is published under an MIT license (seee below)
-
 DnD Statblock Copyright
 Copyright (c) 2020 by Chad Carteret (https://codepen.io/retractedhack/pen/gPLpWe)
 The full copyright can be found commented out under its usage in the source code.
