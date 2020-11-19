@@ -42,7 +42,7 @@
 
     <main class="container-fluid">
         <row class="row">
-            <h1>Check out all the fun things I've made in class so far!</h1>
+            <header class = 'col-sm-12' style='text-align: center;'><h1>Check out some of the fun things I've made in class so far!</h1></header>
         </row>
 
 <!-- Empty Row -->
@@ -50,21 +50,19 @@
 
 
         <row class="row">
-            <!-- rock paper scissors game from class -->
-            <article class="col-sm-4">
-                <h4>Enter a number and press the button game of Rock Paper Scissors against the computer!</h4>
-
-                <input type="text" placeholder="How many wins to win?" id="myInput">
-                <button type="button" onclick="rpsClick();">Compete!</button>
-            </article>
-
+            
+            
             <!-- 9x9 grid of pictures with inner 9x9 grid  -->
             <article class="col-sm-4">
                 <h4>Here's a bunch of sub-rows and sub-columns of pictures!</h4>
+                <br><br>
                 <!-- top row -->
                 <row  class="row">
                     <section class="col-sm-4">
-                        <img class="img-fluid" src="Assets/Images/portPics/beer.jpg">
+                        <!-- rock paper scissors game from class -->
+                        <p style="text-align: center;"><strong>Rock Paper Scissors game from the first few weeks</strong></p>
+                        <input type="text" placeholder="How many wins to win?" id="myInput">
+                <button type="button" onclick="rpsClick();">Compete!</button>
                     </section>
                     <section class="col-sm-4">
                         <img class="img-fluid" src="Assets/Images/portPics/DaronAndDog.jpg">
@@ -138,10 +136,29 @@
                 </row>
             </article>
 
+            <article class="col-sm-3" style="text-align: center;">
+                <h2>BeerDay Helper</h2>
+                <h4>A Tool for Beer Enthusiasts to make the most of their days out</h4>
+                <p><strong><a href="https://github.com/ZiWang55" target="blank">Zi Wang</a>
+                    <a href="https://github.com/ryan-conran" target="blank">Ryan Conran</a>
+                    <a href="https://github.com/evanjamesc" target="blank">Evan Christianson</a>
+                    <a href="https://github.com/aguado-romina" target="blank">Romina Aguado  </a></p>
+                    <p><a href="https://github.com/shaie001" target="blank">Idil Shaie</a>
+                    <a href="https://github.com/DaronSchmit" target="blank">Daron Schmit</a></strong></p>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://ryan-conran.github.io/Beer-Day-Helper/"></iframe>
+                    </div>
+                    <p><a href="https://github.com/ryan-conran/Beer-Day-Helper/" target="blank">Githup Repo</a></p>
+            </article>
+
             <!-- Placeholder -->
-            <article class="col-sm-4">
-                <h4>And here too! Just you wait!</h4>
-                <img src="Assets/Images/portPics/NarutoBelieveIt.gif" alt="Believe it!" class="img-thumbnail" style="max-height: 300px;">
+            <article class="col-sm-4" style="text-align: center;">
+                <h2>Password Generator</h2>
+                <h4>A Fully Psuedo-Random Password Generator</h4>
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item" src="https://DaronSchmit.github.io/DaronPasswordGenerator/"></iframe>
+                </div>
+                <p><a href="https://github.com/DaronSchmit/DaronPasswordGenerator">Github repo</a></p>
             </article>
 
 
