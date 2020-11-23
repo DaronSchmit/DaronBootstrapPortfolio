@@ -82,14 +82,7 @@ February 2019
     right: -40%;
 }
 
-.carousel .item {
-    height: 500px;
-  }
-  
-  .item iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 500px;
-  }
-  
+.carousel-item img{
+    width: 100%;
+}
+
